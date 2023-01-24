@@ -1,0 +1,49 @@
+.wrapper {
+  width: 55vw;
+  margin-top: 4rem;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.header span {
+  font-weight: bold;
+}
+
+.header .titleLeft {
+  font-size: 0.875rem;
+  color: var(--blue-500);
+}
+
+.header .titleRight {
+  font-size: 0.875rem;
+  color: var(--purple-500);
+}
+
+.counterSpan {
+  background: var(--gray-400);
+  color: var(--white);
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.wrapper ul {
+  list-style: none;
+  overflow-y: scroll;
+  height: 50vh;
+  padding-right: .5rem;
+}
+
+.wrapper ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+.wrapper ul::-webkit-scrollbar-thumb {
+  background: var(--gray-500);
+  border-radius: 10px;
+}
